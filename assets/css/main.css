@@ -170,9 +170,15 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #fff;  
+  background: rgb(187, 202, 212);
+  background-image: url(http://www.bloggersafrica.com/wp-content/uploads/2015/04/nairobi-technology-1003x380.jpg)  
 }
 
+.login-page-background-img {
+  width: 1003px;
+  height: 380px;
+  object-fit: cover;
+}
 .wrap-login100 {
   width: 390px;
   background: #fff;
