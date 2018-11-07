@@ -4,27 +4,47 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
+/****OpenSans****/
 @font-face {
-  font-family: Poppins-Regular;
+  font-family: OpenSans-Light;
   src: url('fonts/OpenSans-Light.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Medium;
+  font-family: OpenSans-Regular;
   src: url('fonts/OpenSans-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Bold;
+  font-family: OpenSans-Bold;
   src: url('fonts/OpenSans-Bold.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
+  font-family: OpenSans-SemiBold;
   src: url('fonts/OpenSans-SemiBold.ttf'); 
 }
 
+/****Ubuntu Fonts****/
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url('fonts/Ubuntu-L.ttf'); 
+}
+
+@font-face {
+  font-family: UbuntuMono-Regular;
+  src: url('fonts/UbuntuMono-R.ttf'); 
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url('fonts/OpenSans-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url('fonts/OpenSans-SemiBold.ttf'); 
+}
 
 
 
@@ -39,12 +59,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	font-family: OpenSans-Light, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: OpenSans-Light;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -70,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: OpenSans-Light;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -137,16 +157,16 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+  font-family: OpenSans-Light;
   font-size: 15px;
   color: #999999;
   line-height: 1.5;
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
+  font-family: OpenSans-Light;
   font-size: 15px;
-  color: #57b846;
+  color: #12192c;
   line-height: 1.5;
 }
 
@@ -170,15 +190,9 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: rgb(187, 202, 212);
-  background-image: url(http://www.bloggersafrica.com/wp-content/uploads/2015/04/nairobi-technology-1003x380.jpg)  
+  background: #fff;  
 }
 
-.login-page-background-img {
-  width: 1003px;
-  height: 380px;
-  object-fit: cover;
-}
 .wrap-login100 {
   width: 390px;
   background: #fff;
@@ -194,7 +208,7 @@ iframe {
 
 .login100-form-title {
   display: block;
-  font-family: Poppins-Bold;
+  font-family: OpenSans-Bold;
   font-size: 39px;
   color: #333333;
   line-height: 1.2;
@@ -203,8 +217,8 @@ iframe {
 
 .login100-form-avatar {
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
@@ -220,12 +234,13 @@ iframe {
 .wrap-input100 {
   width: 100%;
   position: relative;
-  border-bottom: 2px solid #d9d9d9;
+  border-bottom: 2px solid #ffffff;
 }
 
 .input100 {
-  font-family: Poppins-SemiBold;
+  font-family: OpenSans-SemiBold;
   font-size: 18px;
+  text-align: center;
   color: #555555;
   line-height: 1.2;
 
@@ -240,6 +255,7 @@ iframe {
 .focus-input100 {
   position: absolute;
   display: block;
+  text-align: center;
   width: 100%;
   height: 100%;
   top: 0;
@@ -261,11 +277,11 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: #57b846;
+  background: #12192c;
 }
 
 .focus-input100::after {
-  font-family: Poppins-Medium;
+  font-family: OpenSans-Regular;
   font-size: 18px;
   color: #999999;
   line-height: 1.2;
@@ -303,6 +319,7 @@ iframe {
 }
 
 
+
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-login100-form-btn {
@@ -317,7 +334,7 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Poppins-Medium;
+  font-family: OpenSans-Regular;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -333,7 +350,7 @@ iframe {
   padding: 0 20px;
   width: 100%;
   height: 50px;
-  background-color: #57b846;
+  background-color: #12192c;
   border-radius: 25px;
 
   box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
@@ -383,7 +400,7 @@ iframe {
   right: 0px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: OpenSans-Light;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -451,4 +468,107 @@ iframe {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 0;
+}
+
+/***********************************/
+/************ ADDITIONS*************/
+/***********************************/
+
+/*=========auth-home===========*/
+.auth-container{
+  margin: auto;
+  width: 390px;
+  background: #fff;
+}
+
+.auth-div{
+
+}
+
+.auth-login-btn-container{
+  width: 50%;
+  float: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.auth-login-btn{
+  font-family: Ubuntu-Light;
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: capitalize;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #12192c;
+  border-radius: 25px;
+
+  box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -o-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.auth-reg-btn-container{
+  width: 50%;
+  float: right;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.auth-reg-btn{
+  font-family: Ubuntu-Light;
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: capitalize;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #12192c;
+  border-radius: 25px;
+
+  box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -moz-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -o-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+  -ms-box-shadow: 0 10px 30px 0px rgba(70, 81, 184, 0.5);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }

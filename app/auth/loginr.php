@@ -18,52 +18,23 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $root_path.'assets/css/main.css';?>">
 </head>
 <body>
-	
-	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100 p-t-85 p-b-20">
-				<form class="login100-form validate-form">
-					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username">
-						<span class="focus-input100" data-placeholder="Username"></span>
-					</div>
 
-					<div class="wrap-input100 validate-input m-b-15" data-validate="Enter password">
-						<input class="input100" type="password" name="pass">
-						<span class="focus-input100" data-placeholder="Password"></span>
-					</div>
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+		<div class="auth-container">
+			<div class="auth-div p-t-200 p-b-20">
+					<div class="auth-login-btn-container">
+						<button class="auth-login-btn m-r-15">
 							Login
 						</button>
+                    </div>
+                    
+                    <div class="auth-reg-btn-container">
+						<button class="auth-reg-btn m-l-15">
+							Register
+						</button>
 					</div>
-
-					<ul class="login-more p-t-190">
-						<li class="m-b-8">
-							<span class="txt1">
-								Forgot
-							</span>
-
-							<a href="#" class="txt2">
-								Username / Password?
-							</a>
-						</li>
-
-						<li>
-							<span class="txt1">
-								Don’t have an account?
-							</span>
-
-							<a href="#" class="txt2">
-								Sign up
-							</a>
-						</li>
-					</ul>
-				</form>
 			</div>
 		</div>
-	</div>
+
 	
 
 	<div id="dropDownSelect1"></div>
