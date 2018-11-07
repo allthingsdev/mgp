@@ -479,10 +479,11 @@ iframe {
   margin: auto;
   width: 390px;
   background: #fff;
+  border: 5px solid rgb(39, 16, 16);
 }
 
 .auth-div{
-
+  border: 1px solid red;
 }
 
 .auth-login-btn-container{

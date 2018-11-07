@@ -19,8 +19,8 @@
 </head>
 <body>
 
-		<div class="auth-container">
-			<div class="auth-div p-t-200 p-b-20">
+		<div class="auth-container p-t-200">
+			<div class="auth-div">
 					<div class="auth-login-btn-container">
 						<button class="auth-login-btn m-r-15">
 							Login
