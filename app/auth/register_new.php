@@ -6,7 +6,7 @@
 	<style type="text/css">
 	.button {
         display: block;
-        width: 115px;
+        width: 100px;
         height: 25px;
         background: #4E9CAF;
         padding: 10px;
