@@ -11,7 +11,7 @@
         background: #4E9CAF;
         padding: 10px;
         text-align: center;
-        border-radius: 5px;
+        border-radius: 6px;
         color: white;
         font-weight: bold;
     }
