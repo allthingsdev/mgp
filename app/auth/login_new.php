@@ -1,24 +1,19 @@
 <?php $root_path = '../../';?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Login V6</title>
 	<style type="text/css">
-	.button {
-        display: block;
-        width: 115px;
-        height: 25px;
-        background: #4E9CAF;
-        padding: 10px;
-        text-align: center;
-        border-radius: 5px;
-        color: white;
-        font-weight: bold;
-    }
+
+	.loginForm{
+		margin: auto;
+	}
+
 	</style>
 </head>
 <body>
-	
+	<div class="loginForm">
 	<form action="validate_login.php" method="post">
   		First name:<br>
   			<input type="text" name="firstname" value=""><br>
@@ -28,5 +23,6 @@
 	</form>
 	<br><br>
   		<a class="button" href="register_new.php">Register</a>
+	</div>
 </body>
 </html>
