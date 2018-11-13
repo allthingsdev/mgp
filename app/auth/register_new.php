@@ -3,19 +3,6 @@
 <html lang="en">
 <head>
 	<title>Login V6</title>
-	<style type="text/css">
-	.button {
-        display: block;
-        width: 100px;
-        height: 25px;
-        background: #4E9CAF;
-        padding: 10px;
-        text-align: center;
-        border-radius: 6px;
-        color: white;
-        font-weight: bold;
-    }
-	</style>
 </head>
 <body>
 	
@@ -34,6 +21,6 @@
   		<input type="submit" value="Submit">
 	</form>
 		<br><br>
-  		<a class="button" href="login_new.php">Login</a>
+  		<a href="login_new.php">Login</a>
 </body>
 </html>
